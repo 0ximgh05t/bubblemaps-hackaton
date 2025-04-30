@@ -21,8 +21,8 @@ A Telegram bot that provides token analysis and bubble map visualization for var
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/bubblemaps-telegram-bot.git
-cd bubblemaps-telegram-bot
+git clone git@github.com:0ximgh05t/bubblemaps-hackaton.git
+cd bubblemaps-hackaton
 ```
 
 2. Install dependencies:
@@ -61,7 +61,7 @@ npm start
 - `/start` - Show welcome message and basic instructions
 - `/help` - List all available commands
 - `/analyze <chain> <contract_address>` - Generate bubble map and token analysis
-  - Example: `/analyze sol EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm`
+  - Example: `/analyze bsc 0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95`
 
 ## Supported Chains
 
@@ -87,7 +87,7 @@ npm start
 ## Project Structure
 
 ```
-bubblemaps-telegram-bot/
+bubblemaps-hackaton/
 ├── src/
 │   ├── bot.js              # Main bot logic and command handlers
 │   ├── services/
@@ -122,9 +122,21 @@ The bot includes comprehensive error handling for:
 - Network errors
 - Invalid token data
 
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+For support, please open an issue in the GitHub repository or contact the maintainers.
 
 ## Acknowledgments
 
