@@ -1,0 +1,28 @@
+{
+  "name": "bubblemaps-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Bubblemaps that provides bubble maps and token insights",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_NO_WARNINGS=1 node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "bubblemaps",
+    "cryptocurrency",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
